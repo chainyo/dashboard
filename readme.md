@@ -1,7 +1,6 @@
 # Brief Simplon 
 
 ## Un tableau de bord pour l'INSEE
----
 
 Jeu de données: `FD_NAIS_2019.csv`
 
@@ -15,4 +14,4 @@ Pour pouvoir lancer le serveur il faut:
 - `pip install dash-bootstrap-components`
 - `pip install plotly`
 - executer le fichier python : `python dashboard.py`
-- se rendre sur ladresse : `http://127.0.0.1:8050/`
+- se rendre sur l'adresse : `http://127.0.0.1:8050/`

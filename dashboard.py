@@ -25,9 +25,8 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 app.config.suppress_callback_exceptions = True
 
-#fig_tab2 = px.bar(df, x='ANAIS', y='SEXE')
 
-# Set the app.layoit
+# Set the app.layout
 app.layout = html.Div([dcc.Tabs(id='tabs', value='tab-1', children=[dcc.Tab(label='Tab one', value='tab-1'),
                 dcc.Tab(label='Tab two', value='tab-2'),
                 dcc.Tab(label='Tab Three', value='tab-3'),
